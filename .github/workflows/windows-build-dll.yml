@@ -13,10 +13,7 @@ jobs:
 
     steps:
     - name: Checkout source
-      uses: actions/checkout@v4
-
-    - name: Setup CMake
-      uses: lukka/get-cmake@v3
+      uses: actions/checkout@v4    
 
     - name: Configure (CMake)
       run: |
